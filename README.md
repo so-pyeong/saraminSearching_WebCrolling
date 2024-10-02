@@ -6,7 +6,7 @@
 
 
 ## ✔️크롤링 과정 
-     (https://github.com/so-pyeong/saraminSearching_WebCrolling/blob/main/app.py)
+#### (https://github.com/so-pyeong/saraminSearching_WebCrolling/blob/main/app.py)
 ###  1️⃣검색어에 입력
 ###  2️⃣사람인 크롤링(검색어-지역-직무)
 ###  3️⃣검색된 공고정보 크롤링
