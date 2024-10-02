@@ -5,7 +5,7 @@
 ![크롤링검색창](https://github.com/user-attachments/assets/231de81c-1ac0-4101-938d-abc0bcd11cc8)
 
 
-## ✔️크롤링 과정 
+## ✔️크롤링 과정 (https://github.com/so-pyeong/saraminSearching_WebCrolling/blob/main/app.py)
 ###  1️⃣검색어에 입력
 ###  2️⃣사람인 크롤링(검색어-지역-직무)
 ###  3️⃣검색된 공고정보 크롤링
