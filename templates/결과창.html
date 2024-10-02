@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>결과창</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_2.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/" class="main-button">메인 페이지</a>
+    </div>
+    <div class="container">
+        <h1>사람인 검색 결과</h1>
+        <table cellpadding="10" width="700" height="100">
+            <thead>
+                <tr>
+                    <th scope="col">제목</th>
+                    <th scope="col">날짜</th>
+                    <th scope="col">상태</th>
+                    <th scope="col">기술</th>
+                    <th scope="col">기업정보</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for job in jobs %}
+                <tr>
+                    <td>{{ job.title }}</td>
+                    <td>{{ job.date }}</td>
+                    <td>{{ job.condition }}</td>
+                    <td>{{ job.sector }}</td>
+                    <td>{{ job.corp_name }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

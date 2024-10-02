@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김소평_webCrawling 웹페이지</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_1.css') }}">
+    <style>
+        body {
+            background-image: url('https://i.ibb.co/Ms0QGsP/Saramin.png');
+            background-repeat: no-repeat;
+            background-position: 30% 50%;
+        }
+        #results {
+            margin-top: 20px;
+        }
+        .result-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+   <section>
+    <h2>💙서울에서 취직하고 싶은 개발자님💙</h2>
+    <h2> ---------------------------------------------- </h2>
+    <br>
+    <br>
+    <h3>🧑‍🎓내가 취업할 수 있는 분야는?🤷‍♂️</h3>
+    <br>
+    <br>
+    <h3>기술분야(파이썬, 자바스크립트, SQL 등) 입력하면</h3>
+    <h3>사람인 취업정보로 검색합니다🔗</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>👇</h1>
+        <form action="{{ url_for('crawl') }}" method="GET">
+            <div class="search">
+                <input class="search-txt" type="text" id="query" name="query" placeholder="검색어를 입력하세요.">
+                <button type="submit">검색</button>
+            </div>
+        </form>
+        <div id="results"></div>
+   </section>
+</body>
+</html>
