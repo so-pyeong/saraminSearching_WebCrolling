@@ -17,14 +17,16 @@
 -----------------------
 
 ## 참고 자료
+[셀레니움4 find_element 사용법!](https://blog.naver.com/kimflstudio/222899538513)
 
+-------------------------
 
 ### ✔️사람인 검색창
 ![크롤링검색창](https://github.com/user-attachments/assets/bc55137e-0e7f-4e7d-8d7f-1cf4ef2291a7)
 --------------------------------
 
 ### ✔️크롤링 과정 
-#### [사람인 크롤링 코드 바로가기!](https://github.com/so-pyeong/saraminSearching_WebCrolling/blob/main/app.py)
+[사람인 크롤링 코드 바로가기!](https://github.com/so-pyeong/saraminSearching_WebCrolling/blob/main/app.py)
 **1️⃣검색어에 입력**
 **2️⃣사람인 크롤링(검색어-지역-직무)**
 **3️⃣검색된 공고정보 크롤링**
