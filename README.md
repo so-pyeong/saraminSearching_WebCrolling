@@ -37,7 +37,7 @@
 
 --------------------------------
 ## ✔️검색결과창
-![사람인 검색결과 캡처](https://github.com/user-attachments/assets/f5349055-507a-4aee-b8b2-dca229663f86)
+![사람인 검색결과 캡처](https://github.com/user-attachments/assets/a8926425-3d5b-4642-bf61-d4e0e3a84294)
 
 ---------------------
 ### ✔️문제점/보완점
