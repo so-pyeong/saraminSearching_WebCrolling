@@ -20,6 +20,7 @@
 [셀레니움4 find_element 사용법!](https://blog.naver.com/kimflstudio/222899538513) / [파이썬 웹스크래핑!](https://dsc-sookmyung.tistory.com/85)
 
 [자동으로 검색어 입력+팝업종료!](https://catloaf.tistory.com/19) / [검색창에 자동 검색하기 기능!](https://m.blog.naver.com/mhy563/222079368690)
+
 -------------------------
 
 ### ✔️사람인 검색창
