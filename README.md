@@ -32,7 +32,7 @@
 **3️⃣검색된 공고정보 크롤링**
 
 ----------------------------
-### ✔️사람인 검색창
+## ✔️사람인 검색창
 ![크롤링검색창](https://github.com/user-attachments/assets/bc55137e-0e7f-4e7d-8d7f-1cf4ef2291a7)
 
 --------------------------------
@@ -40,6 +40,6 @@
 ![사람인 검색결과 캡처](https://github.com/user-attachments/assets/f5349055-507a-4aee-b8b2-dca229663f86)
 
 ---------------------
-## ✔️문제점/보완점
+### ✔️문제점/보완점
 ![크롤링보완점](https://github.com/user-attachments/assets/3e26b114-e250-420c-b63f-f5de59468977)
 
